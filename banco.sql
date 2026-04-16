@@ -1,0 +1,7 @@
+CREATE DATABASE imobiliariajg
+
+CREATE TABLE cidades (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    estado CHAR(2) NOT NULL
+);
